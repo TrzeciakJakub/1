@@ -11,13 +11,15 @@ logic = True #boolean
 
 name = name[1:4]
 
-x = 1/3
+#x = 2/3
 sum = x + f     
 age = str(dict["age"])  
 johnAge = age + "John"  
 age = int(age) + 1      
 maria = list(dict.values())[2]   
 print(age)
+print(maria)
+print(johnAge)
 print(dict["name"] + "John")
 #sumInteger = (int(x) + int(f))
 print(sum)  
