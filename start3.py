@@ -1,5 +1,5 @@
 print('Hello World')
-print("Kuba")
+print("Kuba Trzeciak")
 x = 3 #integer
 f = 3.24 #float 
 name = "Python" #string 
