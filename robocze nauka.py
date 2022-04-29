@@ -245,9 +245,64 @@
 
 #print_sum_twice(5,8)
 
-def even(x):
-    if x % 2 == 0:
-        print("yes")
-    else:
-        print("no")
-even(1)
+#def even(x):
+#    if x % 2 == 0:
+#        print("yes")
+#    else:
+#        print("no")
+#even(1)
+
+#def max(x, y):
+ #   if x <=y:
+ #       return x
+#    else:
+#        return y
+
+#print(max(4, 7))
+#z = max(8, 5)
+#print(z) 
+
+
+#def shout(word):
+
+#   """
+#
+#dupa dupa
+#cycki 
+#"""
+#    print(word + "!")
+#shout("spam")
+
+#def multiply(x, y):
+#    return x * y
+#a = 4
+#b = 7
+#operation = multiply
+#print(operation(a, b))
+
+#def add(x, y):
+#    return x + y
+#def do_twice(func, x, y):
+#    return func(func(x, y), func(x, y))
+
+#a = 5
+#b = 10
+#print(do_twice(add, a, b))
+
+#def square(x):
+#    return x * x
+#def test(func, x):
+#    print(func(x))
+
+#test(square, 42)
+
+#import random
+#for i in range(5):
+#    value = random.randint(1, 6)
+#    print(value)
+
+from math import pi
+print(pi)
+
+from math import sqrt as square_root
+print(square_root(100))
