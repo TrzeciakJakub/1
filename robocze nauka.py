@@ -89,17 +89,165 @@
 #else:
 #    print("no")
 
-num = (input("Podaj Cyfre"))
-if num == 1:
-    print("One")
-else:
-    if num == 2:
-        print("Two")
-    else:
-        if num == 3:
-            print("Three")
-        else:
-            print("Something Else")
+#num = (input("Podaj Cyfre"))
+#if num == "1":
+#    print("One")
+#else:
+#    if num == "2":
+#        print("Two")
+#    else:
+#        if num == "3":
+#            print("Three")
+#        else:
+#            print("Something Else")
 
-str ="Hello World!"
-print(str[6])
+#str ="Hello World!"
+#print(str[6])
+
+#nums = [7, 7, 7, 7, 7]
+#nums[2] = 5
+#print(nums)
+
+#nums = [1, 2, 3, 4, 5]
+#nums[3] = nums[1]
+#print(nums[3])
+
+#nums = [1, 2, 3]
+#print(nums + [4, 5, 6])
+#print(nums * 3)
+
+
+#words = ["spam", "egg", "spam", "sausage"]
+#print("spam" not in words)
+#print("egg" not in words)
+#print("dog" not in words)
+
+
+
+
+#nums = [1, 2, 3]
+#nums.append(4)
+#print(nums)
+
+
+#nums = [1, 2, 3]
+#print(len(nums))
+
+#words = ["Python", "fun"]
+#index = 0
+#words.insert(index, "is")
+#print(words)
+
+
+#letters = [ "p", "q", "r", "s", "p", "u"]
+#print(letters.index("r"))
+#print(letters.index("p"))
+#print(letters.index("z"))
+
+#i = 1
+#while i <=5:
+#    print(i)
+#    i = i + 1
+#print("Finished!")
+
+
+#x = 1
+#while x < 10:
+#    if x%2 == 0:
+#        print(str(x) + " is even")
+#    else:
+#        print(str(x) + " is odd")
+#    x += 1
+
+#x = 1
+#x%2 == 0
+#print(str(x))
+
+
+#i = 0
+#while True:
+#    print(i)
+#    i = i + 1
+#    if i >= 5:
+#        print("breaking")
+#        break
+#print("Finished")
+
+
+#i = 0
+#while i<5:
+#    i += 1
+#    if i == 3:
+#        print("skipping 3")
+#    continue
+#print(i)
+
+#words = ["hello", "world", "spam", "eggs"]
+#for word in words:
+#    print(word + "!")
+
+#str = "testing for loops"
+#count = 0
+#for x in str:
+#    if(x =="t"):
+#        count += 1
+#print(count)
+
+#numbers = list(range(10))
+#print(numbers)
+
+#numbers = list(range(3,8))
+#print(numbers)
+#print(range(20) == range(0,20))
+
+
+#nums = list(range(3, 15,3))
+#print(nums[2])
+
+#for i in range(5):
+#    print("hello!")
+
+#list = [1, 1, 2, 3, 5, 8, 13]
+#print(list[list[4]])
+
+#for i in range(10):
+#  if not i % 2 == 0:
+#    print(i+1)
+
+#list = [1, 2, 3]
+#for word in list:
+#    print(word)
+
+#print("Hello world!")
+#range(2, 20)
+#str(12)
+#range(10, 20, 3)
+
+
+
+#def my_func():
+#    print("spam")
+#    print("spam")
+#    print("spam")
+#
+#my_func()
+
+#def print_with_exclamation(word):
+#    print(word + "!")
+    
+#print_with_exclamation("spam")
+#print_with_exclamation("eggs")
+#print_with_exclamation("python")
+
+#ef print_sum_twice(x,y):
+#    print(x + y)
+#    print(x + y)
+
+#print_sum_twice(5,8)
+
+def even(x):
+    if x % 2 == 0:
+        print("yes")
+    else:
+        print("no")
+even(1)
