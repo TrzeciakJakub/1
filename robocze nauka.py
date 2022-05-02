@@ -301,8 +301,37 @@
 #    value = random.randint(1, 6)
 #    print(value)
 
-from math import pi
-print(pi)
+#from math import pi
+#print(pi)
 
-from math import sqrt as square_root
-print(square_root(100))
+#from math import sqrt as square_root
+#print(square_root(100))
+
+#def print_nums(x):
+#    for i in range(x):
+#        print(i)
+#        return
+#print_nums(10)
+
+#def func(x):
+#    res = 0
+#    for i in range(x):
+#        res += 1
+#    return res
+#print(func(4))
+
+#try:
+#     num = 5 / 0
+#except: 
+#    print("AN error occured")
+#    raise 
+
+#print(1)
+#assert 2 + 2 == 4
+#print(2)
+#assert 1 + 1 == 3
+#print(3) 
+
+#temp = -10
+# assert (temp >= 0), "Colder than absolute zero"
+
