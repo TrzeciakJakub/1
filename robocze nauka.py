@@ -335,3 +335,94 @@
 #temp = -10
 # assert (temp >= 0), "Colder than absolute zero"
 
+#def some_func():
+#    print("Hi!")
+
+#var = some_func()
+#print(var)
+
+#primary = {
+#    "red": [255, 0, 0],
+#    "green": [0, 255, 0],
+#    "blue": [0, 0, 255],
+#}
+
+#print(primary["red"])
+
+#ages = {"Dave": 24, "Mary": 42, "John": 58}
+#print(ages["Dave"])
+
+#squares = {1: 1, 2: 4, 3: "error", 4: 16,}
+#squares[8] = 64
+#squares[3] = 9
+#print(squares)
+
+#nums = {
+#    1: "one",
+#    2: "two",
+#    3: "three",
+#}
+#print(1 in nums)
+#print("three" in nums)
+#print(4 not in nums)
+
+#pairs = {1: "apple",
+#    "orange": [2, 3, 4],
+#    #True: False,
+#    None: "True",
+#}
+
+#print(pairs.get("orange"))
+#print(pairs.get(7))
+#print(pairs.get(1))
+
+#fib = {1: 1, 2: 1, 3: 2, 4: 3}
+#print(fib.get(4, 0) + fib.get(7, 5))
+
+#squares = [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+#print(squares[2:6])
+#print(squares[3:8])
+#print(squares[0:1])
+
+#cubes = [i**3 for i in range(5)]
+#print(cubes)
+
+#evens = [i**2 for i in range(10) if i**2 %2 == 0]
+#print(evens)
+
+
+#nums = [4, 5, 6]
+#msg = "Number: {0}, {1}, {2}". format(nums[0], nums[1], nums[2])
+#print(msg)
+
+#a = "{x}, {y}".format(x=5, y=12)
+#print(a)
+
+
+# print(" dupa ".join(["spam", "eggs", "ham"]))
+# print("Hello ME".replace("ME", "word"))
+# print("This is a sentence.".startswith("This"))
+# print("This is a sentence.".endswith("sentence."))
+# print("This is a sentence.".upper())
+# print("THIS IS A SENTENCE.".lower())
+# print("spam, eggs, ham".split(", "))
+
+# print(min(1, 2, 3, 4, 0, 2, 1))
+# print(max([1, 4, 9, 2, 5, 6, 8]))
+# print(abs(-99))
+# print(abs(42))
+# print(sum([1, 2, 3, 4, 5]))
+
+filename = input("Enter a filename:")
+with open(filename) as f:
+    text = f.read()
+print(text)
+
+
+def count_char(text, char):
+    count = 0 
+    for c in text: 
+        if c == char:
+            count += 1
+    return count
+print(count_char(text, "c"))      
